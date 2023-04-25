@@ -1,5 +1,11 @@
 public class Person {
     private String firstname ;
+
+    public Person(String firstname, String lastname) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
+
     private String lastname ;
 
 
@@ -18,4 +24,6 @@ public class Person {
     public String getLastname() {
         return lastname;
     }
+
+
 }
