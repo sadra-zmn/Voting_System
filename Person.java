@@ -25,5 +25,8 @@ public class Person {
         return lastname;
     }
 
-
+    @Override
+    public String toString() {
+        return firstname + " " + lastname ;
+    }
 }
